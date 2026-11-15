@@ -3,7 +3,7 @@ LINK = "https://sequentmicrosystems.com/collections/all-io-cards/products/16-uni
 
 import lib16inpind
 API = lib16inpind
-DOMAIN = "SM16inpind"
+DOMAIN = "sm16inpind"
 NAME_PREFIX = "sm16ii"
 SM_MAP = {
     "binary_sensor": {

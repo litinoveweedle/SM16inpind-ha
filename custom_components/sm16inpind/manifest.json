@@ -12,7 +12,7 @@
 	],
 	"config_flow": true,
 	"requirements": [
-		"SM16inpind>=1.0.0",
+		"SM16inpind>=1.1.5",
 		"SMcommonHA>=0.0.2"
 	]
 }

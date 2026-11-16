@@ -141,6 +141,13 @@ Entity options:
 - `chan_range: "start..end"` (specify inclusive channel range)
 - `update_interval: seconds` (specify the update interval for `sensor` and `binary_sensor`, default 30s)
 
+## Driver limitations
+
+The current Python driver exposes additional counter and encoder operations, but
+its counter width and reset behavior do not match the manufacturer's current
+protocol. Those operations, including counter-edge settings, are not exposed
+until the driver and hardware-revision compatibility can be verified.
+
 ## Testing
 
 With Python 3.14, install `homeassistant==2026.11.1`,

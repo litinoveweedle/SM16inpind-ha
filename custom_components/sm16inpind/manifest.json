@@ -1,14 +1,15 @@
 {
   "domain": "sm16inpind",
-  "name": "Sequent Microsystems Sixteen INPUTS Integration",
-  "after_dependencies": [],
+  "name": "Sequent Microsystems Sixteen Inputs Card",
+  "categories": [
+    "diy_makers.boards_hardware"
+  ],
   "codeowners": ["@3lv", "@litinoveweedle"],
   "config_flow": true,
-  "dependencies": [],
   "documentation": "https://github.com/SequentMicrosystems/SM16inpind-ha",
   "integration_type": "device",
   "iot_class": "local_polling",
-  "issue_tracker": "https://github.com/SequentMicrosystems/SM16inpind-ha",
+  "issue_tracker": "https://github.com/SequentMicrosystems/SM16inpind-ha/issues",
   "requirements": ["SM16inpind>=1.1.5", "SMcommonHA>=0.0.3"],
   "version": "1.0.0"
 }
